@@ -1,6 +1,7 @@
 {
   "name": "hexlet",
   "version": "1.0.0",
+  "type":"module",
   "description": "Мой первый проект на Хекслете",
   "main": "index.js",
   "scripts": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/msaprog/hexlet-js/issues"
   },
-  "homepage": "https://github.com/msaprog/hexlet-js#readme"
+  "homepage": "https://github.com/msaprog/hexlet-js#readme",
+  "dependencies": {
+    "type":"module",
+    "lodash": "^4.17.21"
+  }
 }
